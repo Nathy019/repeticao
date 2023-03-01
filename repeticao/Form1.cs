@@ -19,16 +19,27 @@ namespace repeticao
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ListarFor.Items.Add(1);
-            ListarFor.Items.Add(2);
-            ListarFor.Items.Add(3);
-            ListarFor.Items.Add(4);
-            ListarFor.Items.Add(5);
-            ListarFor.Items.Add(6);
-            ListarFor.Items.Add(7);
-            ListarFor.Items.Add(8);
-            ListarFor.Items.Add(9);
-            ListarFor.Items.Add(10);
+            //ListarFor.Items.Add(1);
+            //ListarFor.Items.Add(2);
+            //ListarFor.Items.Add(3);
+            //ListarFor.Items.Add(4);
+            //ListarFor.Items.Add(5);
+            //ListarFor.Items.Add(6);
+            //ListarFor.Items.Add(7);
+            //ListarFor.Items.Add(8);
+            //ListarFor.Items.Add(9);
+            //ListarFor.Items.Add(10);
+
+            //for (int valor = 0; valor < 10; valor++)
+            //{
+            //    ListarFor.Items.Add(valor);
+            //}
+
+            for (int valor = 0; valor <= 10; valor += 2)
+            {
+                ListarFor.Items.Add(valor);
+            }
         }
-    }
+        
+}
 }
